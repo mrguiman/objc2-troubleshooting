@@ -1,0 +1,13 @@
+[package]
+name = "objc2-troubleshooting"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+objc2 = { git = "https://github.com/madsmtm/objc2", package = "objc2" }
+objc2-foundation = { git = "https://github.com/madsmtm/objc2", package = "objc2-foundation", features = [
+  "all",
+] }
+objc2-ui-kit = { git = "https://github.com/madsmtm/objc2", package = "objc2-ui-kit", features = [
+  "all",
+] }
